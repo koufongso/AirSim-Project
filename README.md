@@ -12,18 +12,20 @@
 ### Unreal Engine 4.24 
 1. Register a Unreal account and link the account with your github account.
 2. Use the following command to clone the Unreal engine repository
-        ```
-        git clone -b 4.24 https://github.com/EpicGames/UnrealEngine.git
-        cd UnrealEngine 
-        ```
+
+	```
+	git clone -b 4.24 https://github.com/EpicGames/UnrealEngine.git
+	cd UnrealEngine 
+	```
     * <b>Make sure you are in the correct branch (4.24) before continue.</b> You can use `git branch` or `git statue` to chekc the cuurent branch, and use `git checkout 4.24` to switch to branch 4.24 if you are not in the right one.
 
 3. Then use the following commands to build the Unreal engine
-        ```
-        ./Setup.sh
-        ./GenerateProjectFiles.sh
-        make
-        ```
+
+	```
+	./Setup.sh
+	./GenerateProjectFiles.sh
+	make
+	```
     * The installation require more than 90GB disk space
     * The process is time consuming, and depending on network condistion and the computer specs, the installation can take up to 4~5 hours
     <p>For more information please check: <a>https://docs.unrealengine.com/en-US/Platforms/Linux/BeginnerLinuxDeveloper/SettingUpAnUnrealWorkflow/index.htmldownload</a></p>
